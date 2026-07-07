@@ -103,7 +103,7 @@ nav.main a.cta:hover { background: var(--ink); color: var(--ivory); border-color
   content: ""; position: absolute; inset: 0; z-index: -1;
   background: linear-gradient(180deg, rgba(35,28,22,0.18) 0%, rgba(35,28,22,0.04) 40%, rgba(30,24,19,0.72) 100%);
 }
-.hero-inner { padding: 5.5rem 0 3.6rem; width: 100%; }
+.hero-inner { padding-top: 5.5rem; padding-bottom: 3.6rem; width: 100%; }
 .hero .label {
   display: inline-flex; align-items: center; gap: 0.9rem;
   font-size: 0.8rem; letter-spacing: 0.34em; text-transform: uppercase;
@@ -123,7 +123,7 @@ nav.main a.cta:hover { background: var(--ink); color: var(--ivory); border-color
 }
 .hero .btns { display: flex; gap: 1rem; flex-wrap: wrap; }
 .hero--page { min-height: 46vh; }
-.hero--page .hero-inner { padding: 4rem 0 2.6rem; }
+.hero--page .hero-inner { padding-top: 4rem; padding-bottom: 2.6rem; }
 
 /* ---------- buttons ---------- */
 .btn {
